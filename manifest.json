@@ -1,14 +1,18 @@
 {
-  "name": "ATBar",
-  "version": "1.0",
-  "icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" },
-  "background_page": "background.html",
-  "permissions": [
-    "tabs", "http://*/*"
-  ],
-  "browser_action": {
-      "name": "Start ATBar on this page",
-      "default_icon": "icon48.png",
-      "icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" }
-  }
+	"manifest_version": 2,
+	"name": "ATbar",
+	"version": "2.1",
+	"author": "ECS Accessibility Team",
+	"description": "Accessibility toolbar",
+	"icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" },
+	
+	"browser_action": {
+		"name": "Start ATbar on this page",
+		"default_icon": "icon48.png",
+		"icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" }
+	},
+	"permissions": [
+		"tabs",
+		"http://*/*"
+	]
 }
