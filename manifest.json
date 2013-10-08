@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "ATbar",
-	"version": "2.1",
+	"version": "2.2",
 	"author": "ECS Accessibility Team",
 	"description": "Accessibility toolbar",
 	"icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" },
