@@ -5,7 +5,7 @@
 	"author": "ECS Accessibility Team",
 	"description": "Accessibility toolbar",
 	"icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" },
-	
+	"background_page": "background.html",
 	"browser_action": {
 		"name": "Start ATbar on this page",
 		"default_icon": "icon48.png",
