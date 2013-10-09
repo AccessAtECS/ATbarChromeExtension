@@ -1,11 +1,12 @@
 {
 	"manifest_version": 2,
 	"name": "ATbar",
-	"version": "2.2",
+	"version": "2.4",
 	"author": "ECS Accessibility Team",
 	"description": "Accessibility toolbar",
-	"icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" },
-	"background_page": "background.html",
+	"background": {
+		"page": "background.html"
+	},
 	"browser_action": {
 		"name": "Start ATbar on this page",
 		"default_icon": "icon48.png",
@@ -13,6 +14,6 @@
 	},
 	"permissions": [
 		"tabs",
-		"http://*/*"
+		"*://*/*"
 	]
 }
